@@ -1,5 +1,5 @@
-| Nr | Check name                            | Status         |
-| -- | ------------------------------------- | -------------- |
+| Nr | Check name                             | Status         |
+| -- | -------------------------------------- | -------------- |
 | 1   | Addition two positive integers        | Passed         |
 | 2   | Addition two negative integers        | Passed         |
 | 3   | Addition zero and positive integer    | Passed         |
