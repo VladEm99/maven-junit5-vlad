@@ -11,11 +11,8 @@ public class AppTest {
 
     @Test
     public void checkTwoValuesEquals(){
-
-        //
-        //
-
-        assertEquals( 3 , 3);
+        Calculator calculator = new Calculator();
+        assertEquals( 4 , calculator.calculateSumOfTwoNumbers(2, 2));
     }
 
     @Test
