@@ -1,18 +1,33 @@
-| Nr  | Check name                             | Status         |
-| --- | -------------------------------------- | -------------- |
-| 1   | Addition two positive integers         | Passed         |
-| 2   | Addition two negative integers         | Passed         |
-| 3   | Addition zero and positive integer     | Passed         |
-| 4   | Addition zero and positive integer     | Passed         |
-| 5   | Subtraction two positive integers      | Passed         |
-| 6   | Subtraction two negative integers      | Passed         |
-| 7   | Subtraction zero and positive integer  | Passed         |
-| 8   | Subtraction zero and positive integer  | Passed         |
-| 9   | Comparison two positive numbers        | Passed         |
-| 10  | Comparison two negative integers       | Passed         |
-| 11  | Comparison zero and positive integer   | Passed         |
-| 12  | Comparison zero and positive integer   | Passed         |
-| 13  | Comparison two equal integers          | Passed         |
+| Nr  | Check name                                           | Status         |
+| --- | ---------------------------------------------------- | -------------- |
+| 1   | Addition two positive integers                       | Passed         |
+| 2   | Addition two negative integers                       | Passed         |
+| 3   | Addition zero and positive integer                   | Passed         |
+| 4   | Addition zero and positive integer                   | Passed         |
+| 5   | Subtraction two positive integers                    | Passed         |
+| 6   | Subtraction two negative integers                    | Passed         |
+| 7   | Subtraction zero and positive integer                | Passed         |
+| 8   | Subtraction zero and positive integer                | Passed         |
+| 9   | Comparison two positive numbers                      | Passed         |
+| 10  | Comparison two negative integers                     | Passed         |
+| 11  | Comparison zero and positive integer                 | Passed         |
+| 12  | Comparison zero and positive integer                 | Passed         |
+| 13  | Comparison two equal integers                        | Passed         |
+| 14  | Division of two positive double numbers              | Passed         |
+| 15  | Division of two negative double numbers              | Passed         |
+| 16  | Division of integer and positive double number       | Passed         |
+| 17  | Division of integer and negative double number       | Passed         |
+| 18  | Multiplication of two positive double numbers        | Passed         |
+| 19  | Multiplication of two negative double numbers        | Passed         |
+| 20  | Multiplication of integer and positive double number | Passed         |
+| 21  | Multiplication of integer and negative double number | Passed         |
+
+
+
+
+
+
+
 
 на сложение:
 1. корректный результат сложения двух позитивных чисел

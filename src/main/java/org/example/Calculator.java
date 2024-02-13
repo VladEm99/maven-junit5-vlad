@@ -10,5 +10,11 @@ public class Calculator {
     public boolean checkIfFirstIntegerIsGreater(int firstValue, int secondValue){
         return firstValue > secondValue;
     }
+    public double calculateDivisionOfTwoDoubleNumbers(double firstValue, double secondValue){
+        return firstValue / secondValue;
+    }
+    public double calculateMultiplicationOfTwoDoubleNumbers(double firstValue, double secondValue){
+        return firstValue * secondValue;
+    }
 
 }

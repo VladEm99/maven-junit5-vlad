@@ -90,4 +90,38 @@ public class CalculatorTest {
         //Calculator calculator = new Calculator();
         assertEquals( true , calculator.checkIfFirstIntegerIsGreater(0, -2));
     }
+    @Test
+    public void testDivisionOfTwoPositiveDoubleNumbersReturnsCorrectResult(){
+        assertEquals( 1 , calculator.calculateDivisionOfTwoDoubleNumbers(1.1, 1.1), 0.001);
+    }
+    @Test
+    public void testDivisionOfTwoNegativeDoubleNumbersReturnsCorrectResult(){
+        assertEquals( 1 , calculator.calculateDivisionOfTwoDoubleNumbers(-1.1, -1.1), 0.001);
+    }
+    @Test
+    public void testDivisionOfPositiveDoubleNumberAndIntegerReturnsCorrectResult(){
+        assertEquals( 1.1 , calculator.calculateDivisionOfTwoDoubleNumbers(1.1, 1), 0.001);
+    }
+    @Test
+    public void testDivisionOfNegativeDoubleNumberAndIntegerReturnsCorrectResult(){
+        assertEquals( -1.1 , calculator.calculateDivisionOfTwoDoubleNumbers(-1.1, 1), 0.001);
+    }
+    @Test
+    public void testMultiplicationOfTwoPositiveDoubleNumbersReturnsCorrectResult(){
+        assertEquals( 1.21 , calculator.calculateMultiplicationOfTwoDoubleNumbers(1.1, 1.1), 0.001);
+    }
+    @Test
+    public void testMultiplicationOfTwoNegativeDoubleNumbersReturnsCorrectResult(){
+        assertEquals( 1.21 , calculator.calculateMultiplicationOfTwoDoubleNumbers(-1.1, -1.1), 0.001);
+    }
+    @Test
+    public void testMultiplicationOfIntegerAndPositiveDoubleNumberReturnsCorrectResult(){
+        assertEquals( 1.1 , calculator.calculateMultiplicationOfTwoDoubleNumbers(1, 1.1), 0.001);
+    }
+    @Test
+    public void testMultiplicationOfIntegerAndNegativeDoubleNumberReturnsCorrectResult(){
+        assertEquals( -1.1 , calculator.calculateMultiplicationOfTwoDoubleNumbers(1, -1.1), 0.001);
+    }
+
+
 }
