@@ -122,6 +122,14 @@ public class CalculatorTest {
     public void testMultiplicationOfIntegerAndNegativeDoubleNumberReturnsCorrectResult(){
         assertEquals( -1.1 , calculator.calculateMultiplicationOfTwoDoubleNumbers(1, -1.1), 0.001);
     }
+    @Test
+    public void testDivisionOfPositiveAndNegativeDoubleNumbersReturnsCorrectResult(){
+        assertEquals(-1,calculator.calculateDivisionOfTwoDoubleNumbers(1.1, -1.1), 0.001);
+    }
+    @Test
+    public void testMultiplicationOfPositiveAndNegativeDoubleNumbersReturnsCorrectResult(){
+        assertEquals(-1.21,calculator.calculateMultiplicationOfTwoDoubleNumbers(1.1, -1.1), 0.001);
+    }
 
 
 }
